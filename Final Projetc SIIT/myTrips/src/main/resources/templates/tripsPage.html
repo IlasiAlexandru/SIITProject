@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">MyTrips</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="trips">Trips</a></li>
+            <li><a href="profile">Profile</a></li>
+            <li><a href="login">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <h2>New trip details</h2>
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="trip_name">Trip Name</label>
+            <input type="textarea" class="form-control" id="trip_name" placeholder="Enter trip's name" name="trip_name">
+        </div>
+        <div class="form-group">
+            <label for="startDate">Date from</label>
+            <input type="textarea" class="form-control" id="startDate" placeholder="Enter start date" name="startDate">
+        </div>
+        <div class="form-group">
+            <label for="endDate">Date to</label>
+            <input type="textarea" class="form-control" id="endDate" placeholder="Enter end date" name="endDate">
+        </div>
+        <div class="form-group">
+            <label for="impressions">Impressions</label>
+            <input type="textarea" class="form-control" id="impressions" placeholder="Enter impressions"
+                   name="impressions">
+        </div>
+        <div class="form-group">
+            <label for="firstPhoto">First Photo</label>
+            <input type="textarea" class="form-control" id="firstPhoto" placeholder="Enter first photo"
+                   name="firstPhoto">
+        </div>
+        <div class="form-group">
+            <label for="secondPhoto">Second Photo</label>
+            <input type="textarea" class="form-control" id="secondPhoto" placeholder="Enter second photo"
+                   name="secondPhoto">
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="textarea" class="form-control" id="location" placeholder="Enter geographical location"
+                   name="location">
+        </div>
+
+        <div class="form-group">
+
+            <button type="button"  id="Add" name="Add">Add</button>
+        </div>
+
+        <div class="form-group">
+
+            <button type="button" id="Delete" name="Delete">Delete</button>
+
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>
+
+
